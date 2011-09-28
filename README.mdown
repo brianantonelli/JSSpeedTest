@@ -1,9 +1,10 @@
 # About:
-Used for testing the connection speed from within a browser (completely client side).
+Tests the connection speed within the browser, written to run entirely with JavaScript. Utilizes jQuery functionality. Testing is as simple as $.jsSpeedTest()!
 
 # Requirements:
-jQuery.js
+jQuery 1.4
 
 # Features:
 - Returns both kbps and KBps
 - Callback to give current test completion percentage
+- Cross browser friendly! Tested in FF, IE6-8 and Chrome
