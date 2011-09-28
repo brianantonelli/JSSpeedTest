@@ -1,0 +1,9 @@
+# About:
+Used for testing the connection speed from within a browser (completely client side).
+
+# Requirements:
+jQuery.js
+
+# Features:
+- Returns both kbps and KBps
+- Callback to give current test completion percentage
