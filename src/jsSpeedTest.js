@@ -59,7 +59,7 @@
         totalRuns = 0;
         runCount = myRunCount;
         
-        var regexp = /JSSpeedTest\.js(\?.*)?$/;
+        var regexp = /jsSpeedTest\.js(\?.*)?$/i;
             
         $("script").each(function(i,s){
             if($(s).attr("src").match(regexp)){
